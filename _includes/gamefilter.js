@@ -8,7 +8,7 @@
   var allYears = new Set();
 
   gameElems.forEach(function(element) {
-    var item = JSON.parse(element.getAttribute("data-pub"));
+    var item = JSON.parse(element.getAttribute("data-game"));
 
     allYears.add(item.year);
 
