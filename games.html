@@ -36,7 +36,7 @@ description: Games developed at the Center for Transformational Play.
   {% for game in year.items %}
   {% capture anchor %}{% if game.id %}{{ game.id }}{% else %}{{ game.title | slugify }}{% endif %}{% endcapture %}
 
-  <div class="publication flex mt4" data-game='{{ game | jsonify | escape }}'>
+  <div class="game flex mt4" data-game='{{ game | jsonify | escape }}'>
     {% assign thumb = 'assets' | append: game.url | replace: '.html',
       '_thumb.png' %}
     <div class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns "
