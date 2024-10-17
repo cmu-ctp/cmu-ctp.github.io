@@ -25,4 +25,5 @@ To add specific content, follow the README guides in the corresponding directori
 
 * [Add a person](_people)
 * [Add a publication](_publications)
+* [Add a game](_games)
 * [Add a post](_posts)

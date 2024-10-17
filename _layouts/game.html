@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div class="pv4 bg-near-white">
+  <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+    <h1 class="f2 lh-title measure mt3">
+      {{ page.title }}
+    </h1>
+
+    {% if page.description %}
+      <p class="lh-copy mt3 f4">
+        {{ page.description | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    {% endif %}
+
+    <div class="flex flex-row flex-wrap items-start mt1">
+    {% for name in page.developers %} {% assign developer = site.people |
+    where:"name", name | first %}
+      <div class="flex flex-column items-center mt3 mr4">
+        <picture>
+          <source srcset="{{ developer.image | relative_url }}"></source>
+          <source srcset="{{ 'assets/person.png' | relative_url }}"></source>
+          <img class="br-100 w3 h3 mb1" alt="Picture of {{ name }}" />
+        </picture>
+        <div class="black mw4 tc">{% include person name=name %}</div>
+      </div>
+    {% endfor %}
+    </div>
+
+    {% if page.platform_tags %}
+      <ul class="list pl0">
+        {% for platform in page.platform_tags %}
+        <li class="mt1 cmu-red">
+            <i class="fas fa-platform"></i> {{ platform }}
+        </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
+
+<div class="w-100 mw8 ph4-l ph3 center mt4">
+  {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
+  <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100">
+
+  {% assign page_content = content %}
+  {% if page_content != "" %}
+    <h2>Description</h2>
+    <div class="measure-wide lh-copy">
+      {{ page_content }}
+    </div>
+  {% endif %}
+
+  {% if page.link or page.video or page.blog or page.source %}
+  <h2>Links</h2>
+    <ul class="list pl0">
+      {% if page.link %}
+        <li class="mt2"><a href="{{ page.link }}" class="black link hover-cmu-red">
+          <i class="fas fa-link" aria-hidden="true"></i> Game
+        </a></li>
+      {% endif %}
+      {% if page.source %}
+        <li class="mt2"><a href="{{ page.source }}" class="black link hover-cmu-red">
+          <i class="fas fa-link" aria-hidden="true"></i> Source
+        </a></li>
+      {% endif %}
+      {% if page.video %}
+        <li class="mt2"><a href="{{ page.video }}" class="black link hover-cmu-red">
+          <i class="fas fa-film" aria-hidden="true"></i> Video
+        </a></li>
+      {% endif %}
+      {% if page.blog %}
+        <li class="mt2"><a href="{{ page.blog }}" class="black link hover-cmu-red">
+          <i class="fas fa-newspaper" aria-hidden="true"></i> Blog
+        </a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div>
