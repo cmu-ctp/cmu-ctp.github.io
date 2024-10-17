@@ -29,16 +29,13 @@ layout: default
     </div>
 
     {% if page.platform_tags %}
-      <div class="mt3">
-        Developed for
-        <ul class="list pl0">
-          {% for platofrm in page.platform_tags %}
-          <li class="mt1 cmu-red">
-              {{ platform }}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <ul class="list pl0">
+        {% for platofrm in page.platform_tags %}
+        <li class="mt1 cmu-red">
+            <i class="fas fa-platform"></i> {{ platform }}
+        </li>
+        {% endfor %}
+      </ul>
     {% endif %}
   </div>
 </div>
