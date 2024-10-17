@@ -6,7 +6,7 @@ Create a new `*.md` in `_people` with a unique name for you. Then fill it with t
 ---
 name: ...
 website: ...
-image: /assets/people/....jpg
+image: /assets/people/<FirstLast>.jpg
 role: PhD Student
 advisors:
     - AdvisorFirstName AdvisorLastName

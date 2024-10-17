@@ -1,6 +1,6 @@
 ---
 name: Elaine Fath
 website: https://elaine-fath.squarespace.com/
-image: /assets/person.png
+image: 
 role: Lead Game Designer
 ---

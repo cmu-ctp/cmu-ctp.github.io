@@ -1,6 +1,6 @@
 ---
 name: Jessica Hammer
 website: http://replayable.net/
-image: /assets/people/JessicaHammer.jpg
+image: 
 role: Director
 ---

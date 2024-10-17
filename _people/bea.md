@@ -1,7 +1,7 @@
 ---
 name: Bea Maggipinto
 website: beamaggipinto.com
-image: /assets/people/BeaMaggipinto.jpg
+image: 
 role: PhD Student
 Advisors:
     - Jessica Hammer
