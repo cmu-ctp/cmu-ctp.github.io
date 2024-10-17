@@ -27,8 +27,6 @@ sass:
 collections:
   publications:
     output: true
-  games:
-    output: true
   people:
     output: false
 
