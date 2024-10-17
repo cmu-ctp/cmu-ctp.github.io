@@ -31,9 +31,11 @@ roles:
               {% assign content = person.content | strip_html | strip_newlines %}
               <span{% if content != '' %} title="Fun fact: {{ content }}"{% endif %}>
                 <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+                -->
                 <span class="black">
                   {{ person.name }}
                 </span>
+                <!--
               </span>
               -->
               {% if person.website %}</a>{% endif %}
