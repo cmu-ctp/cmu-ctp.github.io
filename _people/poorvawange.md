@@ -2,5 +2,5 @@
 name: Poorva Wange
 website: 
 image: 
-role: UX Researcher
+role: Lead Game Designer
 ---
