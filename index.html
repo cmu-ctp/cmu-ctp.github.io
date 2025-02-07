@@ -52,13 +52,4 @@ layout: default
     </section>
   
   </div>
-
-  <section class="pv3">
-    <h2 class="f3">Recent Publications</h2>
-
-    {% assign recent_pubs = site.publications | reverse %} {% include
-    publications.html publications=recent_pubs limit=7 %}
-
-    <a class="cta" href="/publications">Show all</a>
-  </section>
 </div>
