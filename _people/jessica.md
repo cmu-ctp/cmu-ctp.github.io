@@ -2,5 +2,6 @@
 name: Jessica Hammer
 website: http://replayable.net/
 image: 
-role: Director
+role: Faculty
+title: Director
 ---

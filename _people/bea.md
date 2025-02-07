@@ -2,7 +2,8 @@
 name: Bea Maggipinto
 website: beamaggipinto.com
 image: 
-role: PhD Student
+role: Student
+title: PhD Student
 Advisors:
     - Jessica Hammer
     - Valentina Nisi
