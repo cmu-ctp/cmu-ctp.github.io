@@ -80,7 +80,7 @@ roles:
             </span>
             -->
             {% if person.website %}</a>{% endif %}
-          <div class="gray">({{ person.title }})</div>
+            {% if person.title %}<div class="gray">({{ person.title }})</div>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
