@@ -2,8 +2,8 @@
 name: Noor Hammad
 website: https://www.nhammad.me/
 image: 
-role: Student
-title: PhD Student
+section: Student
+subtitle: PhD Student
 Advisors:
     - Erik Harpstead
     - Jessica Hammer

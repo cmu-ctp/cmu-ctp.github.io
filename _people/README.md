@@ -7,8 +7,8 @@ Create a new `*.md` in `_people` with a unique name for you. Then fill it with t
 name: ...
 website: ...
 image: /assets/people/<FirstLast>.jpg
-role: Student | Staff | Student
-title: PHD Student | Director | etc.
+section: Student | Staff | Student
+subtitle: PHD Student | Director | etc.
 advisors:
     - AdvisorFirstName AdvisorLastName
 ---
@@ -16,7 +16,7 @@ advisors:
 Fun fact.
 ```
 
-Use one of these roles.
+Use one of these for section:
 - Faculty
 - Staff
 - Student
