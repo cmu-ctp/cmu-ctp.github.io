@@ -10,6 +10,7 @@ image: /assets/people/<FirstLast>.jpg
 section: Student | Staff | Student
 subtitle: Technical Game Designer
 ---
+```
 
 Use one of these for section:
 - Faculty
