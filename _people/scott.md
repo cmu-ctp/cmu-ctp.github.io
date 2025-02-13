@@ -5,5 +5,3 @@ image:
 section: Staff
 subtitle: Technical Game Designer
 ---
-
-Worked on this website!

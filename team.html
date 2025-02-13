@@ -3,10 +3,32 @@ layout: page
 title: People
 subtitle: People are at the center of Transformational Play. Meet the humans at the heart of our research. If you are interested in joining us, check out our <a href="/opportunities"> opportunities page</a>.
 roles:
-- Faculty
+- Director
 - Staff
+- Faculty
 - Student
 ---
+
+<h2>Director</h2>
+
+<div class="flex flex-wrap">
+  <div class="w-25-m w-20-l w-50 ph2 pv2">
+    {% assign director = site.people | where_exp:"director", "director.section == 'Director'"  | first %}
+    {% if director.website %}<a href="{{ director.website }}">{% endif %}
+      <!--
+      {% assign content = director.content | strip_html | strip_newlines %}
+      <span{% if content != '' %} title="Fun fact: {{ content }}"{% endif %}></span>
+        <img src="{{ director.image | relative_url }}" alt="Picture of {{ director.name }}" loading="lazy" class="br3" />
+        -->
+        <span class="black">
+          {{ director.name }}
+        </span>
+        <!--
+      </span>
+      -->
+    {% if director.website %}</a>{% endif %}
+  </div>
+</div>
 
 <h2>Staff</h2>
 
@@ -27,7 +49,7 @@ roles:
             </span>
             -->
           {% if person.website %}</a>{% endif %}
-          {% if person.subtitle %}<div class="gray">({{ person.subtitle }})</div>{% endif %}
+          {% if person.subtitle %}<div class="gray">{{ person.subtitle }}</div>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
@@ -52,13 +74,13 @@ roles:
             </span>
             -->
           {% if person.website %}</a>{% endif %}
-          {% if person.subtitle %}<div class="gray">({{ person.subtitle }})</div>{% endif %}
+          {% if person.subtitle %}<div class="gray">{{ person.subtitle }}</div>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
 </div>
 
-<h2>Students</h2>
+<h2>Doctoral Students</h2>
 <div class="w-100 mw8 left">
   The following students are currently pursuing a PhD in conjunction with the Center for Transformational Play:
 </div>
@@ -80,7 +102,7 @@ roles:
             </span>
             -->
           {% if person.website %}</a>{% endif %}
-          {% if person.subtitle %}<div class="gray">({{ person.subtitle }})</div>{% endif %}
+          {% if person.subtitle %}<div class="gray">{{ person.subtitle }}</div>{% endif %}
         </div>
       {% endif %}
     {% endfor %}
