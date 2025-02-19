@@ -1,6 +1,6 @@
 ---
 name: Avonelle Wing
-website: https://hcii.cmu.edu/people/avonelle-wing
+website: mailto:avonelle@cmu.edu
 image: 
 section: Staff
 subtitle: Operations Manager

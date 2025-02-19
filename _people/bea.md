@@ -1,7 +1,7 @@
 ---
 name: Bea Maggipinto
-website: beamaggipinto.com
+website: https://www.linkedin.com/in/beamay/
 image: 
 section: Student
-subtitle: PhD Student
+subtitle:
 ---

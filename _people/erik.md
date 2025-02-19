@@ -1,7 +1,7 @@
 ---
 name: Erik Harpstead
-website: https://www.erikharpstead.net/
+website: mailto:harpstead@cmu.edu
 image: 
 section: Faculty
-subtitle:
+subtitle: Systems Scientist, HCII
 ---

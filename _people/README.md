@@ -5,7 +5,7 @@ Create a new `*.md` in `_people` with a unique name for you. Then fill it with t
 ```md
 ---
 name: ...
-website: ...
+website: https://example.com | mailto:example@andrew.cmu.edu
 image: /assets/people/<FirstLast>.jpg
 section: Student | Staff | Student
 subtitle: Technical Game Designer

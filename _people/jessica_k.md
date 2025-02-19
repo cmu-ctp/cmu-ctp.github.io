@@ -3,5 +3,5 @@ name: Jessica Kaminsky
 website: https://hcii.cmu.edu/people/jessica-kaminsky
 image: 
 section: Staff
-subtitle: 
+subtitle: Project Management Lead
 ---
