@@ -87,8 +87,8 @@ roles:
 
 <div class="flex flex-wrap">
   {% for person in site.people %}
-      {% if person.section == "Students" %}
-        <div class="w-25-m w-20-l w-50 ph2 pv2">
+      {% if person.section == "Student" %}
+        <div class="w-25-m w-20-l w-50 ph2 pv4">
           {% if person.website %}<a href="{{ person.website }}" target="_blank">{% endif %}
             <!--
             {% assign content = person.content | strip_html | strip_newlines %}
