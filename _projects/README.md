@@ -13,4 +13,4 @@ header_image_alt: ....
 content
 ```
 
-Create a new `*.md` file in the `_projectss` directory with the title as the name.
+This page is a work in progress. Create a new `*.md` file in the `_projectss` directory with the title as the name.
