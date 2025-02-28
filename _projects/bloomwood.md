@@ -24,7 +24,7 @@ Research Areas<br>
 [Game Design](https://hcii.cmu.edu/research-areas/game-design), [Healthcare](https://hcii.cmu.edu/research-areas/healthcare)
 
 **Awards**<br>
-[Meaningful Play: Best Student Game](https://www.cs.cmu.edu/news/2022/bloomwood-stories)
+[Meaningful Play: Best Student Game](https://www.cs.cmu.edu/news/2022/bloomwood-stories)<br>
 [Gee Award Finalist](https://www.geeawards.com/2021)
 
 **Project Paper**<br>
